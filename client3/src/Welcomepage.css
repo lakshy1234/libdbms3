@@ -1,0 +1,36 @@
+/* WelcomePage.css */
+.root {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #000a18, #4d72a9);
+    margin-left: 400px;
+    padding-left: 50px;
+    padding-right: 50px;
+
+  }
+  
+  .appBar {
+    margin-bottom: 150px;
+    
+  }
+  
+  .toolbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .welcomeText {
+    padding-bottom: 10px;
+    color: #778688f5;
+  }
+  
+  .button {
+    margin: 16px;
+    width: 200px;
+    
+  }
+  

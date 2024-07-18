@@ -1,0 +1,299 @@
+<<<<<<< HEAD
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0px 100px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .bookdata{
+    display: flex;
+  }
+  .book{
+    color: #000;
+    flex:2;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  }
+  .delete{
+    border: #141414;
+    padding: 3px 6px;
+    background-color: rgb(129, 12, 238);
+    cursor: pointer;
+    color: #0000009a;
+  }
+
+  .form {
+    margin: 20px;
+    padding: 20px;
+    background-color: rgb(133, 69, 69);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .form input {
+    display: block;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .form button {
+    padding: 10px 20px;
+    background-color: #141314;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .form button:hover {
+    background-color: #3078c6;
+  }
+  /* styles.css */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #70a74658;
+    padding: 8px;
+}
+
+th {
+    background-color: #eb4545;
+    text-align: center;
+}
+
+tr{
+  text-align: left;
+  background-color: #deeaf7;
+}
+
+
+img {
+    display: block;
+    margin: auto;
+}
+.custom-add-button {
+  background-color: #09090a; /* Replace with your desired color */
+  border-color: #ffffff;     /* Ensure border matches background color */
+}
+
+.custom-add-button:hover {
+  background-color: #0dcd4300; /* Darker shade for hover effect */
+  border-color: #e04b2b;
+}
+.custom-add-link {
+  color: #ffffff; /* Replace with your desired text color */
+}
+
+.custom-header h1,
+.custom-header th {
+    color: #000000; /* Replace with your desired header color */
+}
+
+.custom-header th {
+    background-color: #368c6d; /* Replace with your desired header background color */
+    padding: 1rem;
+}
+
+.custom-update-button{
+  background-color: #ea1313;
+  border: #e80c0c;
+  padding-top: 0px;
+  margin-top: 0%;
+}
+
+.custom-update-button:hover {
+  background-color: #0f0f0f; /* Darker shade for hover effect */
+  border-color: #ec0909;
+}
+
+.custom-update-button .text-white {
+  color: #000000fa;
+}
+
+.btn-danger {
+  background-color: #df0d0d; /* Update Delete button color */
+  border-color: #ffffff;
+  color: #fff;
+  margin-top: 0%;
+}
+
+.btn-danger:hover {
+  background-color: #2b15d4;
+  border-color: #b2757b;
+}
+
+.custom-header th {
+  color: #471ea7;
+} 
+
+.custom-th {
+  background-color: #007bff; /* Desired background color for headers */
+  color: white; /* Desired text color for headers */
+}
+
+=======
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0px 100px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .bookdata{
+    display: flex;
+  }
+  .book{
+    color: #000;
+    flex:2;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  }
+  .delete{
+    border: #141414;
+    padding: 3px 6px;
+    background-color: rgb(129, 12, 238);
+    cursor: pointer;
+    color: #0000009a;
+  }
+
+  .form {
+    margin: 20px;
+    padding: 20px;
+    background-color: rgb(133, 69, 69);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .form input {
+    display: block;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .form button {
+    padding: 10px 20px;
+    background-color: #141314;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .form button:hover {
+    background-color: #3078c6;
+  }
+  /* styles.css */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #70a74658;
+    padding: 8px;
+}
+
+th {
+    background-color: #eb4545;
+    text-align: center;
+}
+
+tr{
+  text-align: left;
+  background-color: #deeaf7;
+}
+
+
+img {
+    display: block;
+    margin: auto;
+}
+.custom-add-button {
+  background-color: #09090a; /* Replace with your desired color */
+  border-color: #ffffff;     /* Ensure border matches background color */
+}
+
+.custom-add-button:hover {
+  background-color: #0dcd4300; /* Darker shade for hover effect */
+  border-color: #e04b2b;
+}
+.custom-add-link {
+  color: #ffffff; /* Replace with your desired text color */
+}
+
+.custom-header h1,
+.custom-header th {
+    color: #000000; /* Replace with your desired header color */
+}
+
+.custom-header th {
+    background-color: #368c6d; /* Replace with your desired header background color */
+    padding: 1rem;
+}
+
+.custom-update-button{
+  background-color: #ea1313;
+  border: #e80c0c;
+  padding-top: 0px;
+  margin-top: 0%;
+}
+
+.custom-update-button:hover {
+  background-color: #0f0f0f; /* Darker shade for hover effect */
+  border-color: #ec0909;
+}
+
+.custom-update-button .text-white {
+  color: #000000fa;
+}
+
+.btn-danger {
+  background-color: #df0d0d; /* Update Delete button color */
+  border-color: #ffffff;
+  color: #fff;
+  margin-top: 0%;
+}
+
+.btn-danger:hover {
+  background-color: #2b15d4;
+  border-color: #b2757b;
+}
+
+.custom-header th {
+  color: #471ea7;
+} 
+
+.custom-th {
+  background-color: #007bff; /* Desired background color for headers */
+  color: white; /* Desired text color for headers */
+}
+
+>>>>>>> 9e0aa2a8f49a270957adb99f0586594698067039

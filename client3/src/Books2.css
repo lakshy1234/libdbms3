@@ -1,0 +1,147 @@
+<<<<<<< HEAD
+.page-content{
+    background-color: aliceblue;
+}
+.page-header.custom-header {
+    background: linear-gradient(to right, rgb(229, 222, 225), #4a90e2);
+    padding: 20px;
+    color: rgb(239, 28, 28);
+    text-align: center;
+    border-radius: 5px;
+}
+
+.table-responsive {
+    margin-top: 20px;
+}
+
+.table-striped > tbody > tr:nth-of-type(odd) {
+    background-color: #f0dada;
+}
+
+.table-hover > tbody > tr:hover {
+    background-color: #ea0e0e;
+}
+
+.custom-th {
+    background-color: #4a90e2;
+    color: white;
+    text-align: left;
+}
+
+.btn-primary.custom-add-button,
+.btn-info.custom-update-button,
+.btn-danger {
+    margin: 5px;
+}
+
+.custom-add-button:hover,
+.custom-update-button:hover,
+.btn-danger:hover {
+    opacity: 0.8;
+}
+
+.text-white {
+    color: rgb(0, 0, 0) !important;
+}
+
+.btn-xs.btn-xs.btn-info-custom-update-button{
+    background-color: #198733 !important;
+}
+
+.custom-add-link {
+    text-decoration: none;
+}
+
+.btn-primary.custom-add-button {
+    background-color: #28a745;
+    border-color: #28a745;
+}
+
+.btn-primary.custom-add-button .custom-add-link:hover {
+    color: white;
+}
+
+.custom-add-button:hover {
+    background-color: #218838;
+    border-color: #1e7e34;
+}
+
+.custom-update-button {
+    background-color: #ffffff;
+}    
+
+  
+=======
+.page-content{
+    background-color: aliceblue;
+}
+.page-header.custom-header {
+    background: linear-gradient(to right, rgb(229, 222, 225), #4a90e2);
+    padding: 20px;
+    color: rgb(239, 28, 28);
+    text-align: center;
+    border-radius: 5px;
+}
+
+.table-responsive {
+    margin-top: 20px;
+}
+
+.table-striped > tbody > tr:nth-of-type(odd) {
+    background-color: #f0dada;
+}
+
+.table-hover > tbody > tr:hover {
+    background-color: #ea0e0e;
+}
+
+.custom-th {
+    background-color: #4a90e2;
+    color: white;
+    text-align: left;
+}
+
+.btn-primary.custom-add-button,
+.btn-info.custom-update-button,
+.btn-danger {
+    margin: 5px;
+}
+
+.custom-add-button:hover,
+.custom-update-button:hover,
+.btn-danger:hover {
+    opacity: 0.8;
+}
+
+.text-white {
+    color: rgb(0, 0, 0) !important;
+}
+
+.btn-xs.btn-xs.btn-info-custom-update-button{
+    background-color: #198733 !important;
+}
+
+.custom-add-link {
+    text-decoration: none;
+}
+
+.btn-primary.custom-add-button {
+    background-color: #28a745;
+    border-color: #28a745;
+}
+
+.btn-primary.custom-add-button .custom-add-link:hover {
+    color: white;
+}
+
+.custom-add-button:hover {
+    background-color: #218838;
+    border-color: #1e7e34;
+}
+
+.custom-update-button {
+    background-color: #ffffff;
+}    
+
+  
+>>>>>>> 9e0aa2a8f49a270957adb99f0586594698067039

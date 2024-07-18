@@ -1,0 +1,141 @@
+/* Add.css */
+
+.form-container {
+    justify-content: center; /* Horizontally center content */
+    align-items: center;
+    background-color: #a82929;
+    max-width: 400px;
+    width: 100%;
+    padding-left: 1000px;
+    margin-top: 50px;
+    margin-left: 100px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-title {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .form-button {
+    margin-top: 20px;
+  }
+  
+  .dialog-title {
+    padding: 20px 24px;
+  }
+  
+  .dialog-content {
+    padding: 16px 24px;
+  }
+  
+  .dialog-actions {
+    padding: 8px 24px;
+  }
+  .form {
+    margin: 20px;
+    padding: 20px;
+    align-self: center;
+    margin-left: 500px;
+    background-color: rgb(133, 69, 69);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  .form h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .form input {
+    display: block;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .form button {
+    padding: 10px 20px;
+    background-color: #141314;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .form button:hover {
+    background-color: #3078c6;
+  }
+  .sidebar1 {
+    width: 240px;
+    background-color: #783f3f;
+    color: rgb(233, 27, 27);
+    height: 90%;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    position: fixed;
+    z-index: 100;
+    left: 0;
+    top: 0;
+    overflow: auto;
+  }
+.sidebar1.sidebar1{
+    margin-top: 15px;
+    padding-left: 10px;
+    justify-self: center;
+}
+  .sidebar1 .sidebar-shortcuts {
+    text-align: center;
+    padding: 0px;
+  }
+
+  .sidebar1 .sidebar-shortcuts button {
+    margin: 0px;
+    padding-bottom: 0px;
+    padding-left: 100px;
+  }
+  
+  .sidebar1 .nav {
+    list-style-type: none;
+    padding-top: 0px;
+    margin: 0;
+    justify-content: center;
+  }
+  
+  .sidebar1 .nav li {
+    width: 100%;
+    padding-bottom: 0px ;
+
+  }
+  
+  .sidebar1 .nav li a {
+    display: block;
+    color: rgb(172, 38, 38);
+    padding: 1px 1px;
+    text-decoration: none;
+  }
+  
+  .sidebar1 .nav li a:hover {
+    background-color: #362f2f;
+  }
+  
+  .sidebar1 .nav .submenu {
+    display: none;
+  }
+  
+  .sidebar1 .nav .submenu.show {
+    display: block;
+  }
+  
+  .container2 {
+    padding-top: 70px;
+    display: flex;
+    justify-content: center; /* Horizontally center content */
+    align-items: center; /* Vertically center content */
+    height: 90vh; /* Full viewport height */
+  }
+
+  
+  /* Add any other styles you need */
+  

@@ -1,0 +1,24 @@
+.column-id {
+    width: 100px; /* Adjust the width as needed */
+  }
+  
+  .column-date {
+    width: 200px; /* Adjust the width as needed */
+  }
+  
+  .column-author {
+    width: 150px; /* Adjust the width as needed */
+  }
+  
+  .column-desc {
+    width: 100px; /* Adjust the width as needed */
+  }
+
+  .column-price{
+    width: 100px;
+  }
+  
+  .column-actions {
+    width: 200px;
+    white-space: nowrap; /* Adjust the width as needed */
+  }

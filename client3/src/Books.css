@@ -1,0 +1,183 @@
+.container1 {
+    display: flex;
+    width: 460%;
+    background: linear-gradient(0deg, #77016d, #1a1919);
+  }
+  
+  .sidebar {
+    width: 220px;
+    background: linear-gradient(225deg, #00173a, #4d72a9);
+    color: rgb(233, 27, 27);
+    height: 100%;
+    position: fixed;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    margin-top: 35px;
+    z-index: 100;
+    overflow: auto;
+  }
+
+  .sidebar .sidebar-shortcuts {
+    text-align: center;
+    padding: 0px;
+  }
+
+  .sidebar .sidebar-shortcuts button {
+    margin: 0px;
+    padding-bottom: 0px;
+  }
+  
+  .sidebar .nav {
+    list-style-type: none;
+    padding-top: 0px;
+    margin: 0;
+    justify-content: center;
+  }
+  
+  .sidebar .nav li {
+    width: 100%;
+    padding-bottom: 0px ;
+
+  }
+  
+  .sidebar .nav li a {
+    display: block;
+    color: rgb(172, 38, 38);
+    padding: 1px 1px;
+    text-decoration: none;
+  }
+  
+  .sidebar .nav li a:hover {
+    background-color: #000000;
+  }
+  
+  .sidebar .nav .submenu {
+    display: none;
+  }
+  
+  .sidebar .nav .submenu.show {
+    display: block;
+  }
+  
+
+  
+  
+  
+  .main-content1 {
+    flex-grow: 1;
+    margin-left: 250px;
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-right: 0px;
+    padding-top: 20px;
+    width: 10px;
+    
+  }
+
+  .column-id {
+    width: 100px; /* Adjust the width as needed */
+  }
+  
+  .column-title {
+    width: 200px; /* Adjust the width as needed */
+  }
+  
+  .column-author {
+    width: 150px; /* Adjust the width as needed */
+  }
+  
+  .column-desc {
+    width: 100px; /* Adjust the width as needed */
+  }
+
+  .column-price{
+    width: 100px;
+  }
+  
+  .column-actions {
+    width: 300px;
+    white-space: nowrap; /* Adjust the width as needed */
+  }
+  
+  /* Style the table */
+.table {
+    width: 400%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 18px;
+    text-align: center;
+    align-self: center;
+  }
+  
+  /* Style the table headers */
+  .table th, .table td {
+    border: 0.5px solid #f7f6f659;
+    padding: 8px;
+  }
+  
+  /* Add a background color to table header */
+  .table th {
+    background: linear-gradient(180deg, #ffffff, #000000);;
+  }
+  
+  .table tr:hover {
+    background: linear-gradient(0deg, #938989, #474242); /* Change to whatever color you prefer */
+  }
+  .navbar {
+    width: 100%;
+    background: linear-gradient(225deg, #00173a, #4d72a9);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;/* Optional: Add a bottom border */
+  }
+
+  .navbar .navbar-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .navbar .navbar-brand {
+    color: rgb(231, 223, 223);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+  }
+
+  .navbar .navbar-brand i {
+    margin-right: 5px;
+  }
+
+  .breadcrumbs{
+    padding-top: 5px;
+  }
+
+  .nav-search{
+    padding-top: 5px;
+  }
+
+  .buttona{
+    font-size: 1px; /* Adjust the font size as needed */
+    min-width: 5px !important;
+    background-color: rgb(89, 145, 114) !important;
+    color: #00000000;
+  }
+
+  .buttonu{
+    font-size: 1px; /* Adjust the font size as needed */
+    min-width: 5px !important;
+    background: linear-gradient(0deg, #000000, #0066ff);
+    color: #c17b7b;
+  }
+
+  .buttond{
+    font-size: 1px; /* Adjust the font size as needed */
+    min-width: 5px !important;
+    background: linear-gradient(180deg, #00ffd5, #000000);
+    color: #c17b7b;
+  }
+
